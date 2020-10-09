@@ -144,3 +144,13 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+header nav a{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font size: 50x;}
+
+    #box1{color: blueviolet;}
