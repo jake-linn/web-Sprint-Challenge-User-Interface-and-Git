@@ -56,6 +56,7 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -101,7 +102,7 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box{
     width: 12.5%;
     height: 100px;
     background: black;
@@ -111,6 +112,7 @@ p {
     align-items: center;
     justify-content: center;
 }
+
 
 .bottom-content {
     display: flex;
@@ -131,20 +133,19 @@ footer {
     background: black;
 }
 
-footer nav {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
+header nav a{ margin: 0 10px;
+    border: 1px solid lightgray;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    color: black;
+    text-decoration: none;
+    margin-bottom: 20px;
+    background: white;
+    text-align: center;
 }
 
-footer nav a {
-    color: white;
-    text-decoration: none;
-}
-header nav a{
+footer nav a{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -153,4 +154,12 @@ header nav a{
     padding: 20px 2%;
     font size: 50x;}
 
-    #box1{color: blueviolet;}
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+    
